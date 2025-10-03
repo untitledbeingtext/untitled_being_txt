@@ -1,0 +1,93 @@
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+body {
+    font-family: "Courier Prime", monospace;
+    background-image: url(img/brown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body:hover {
+    cursor: pointer;
+}
+.author {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position:center;
+    border-radius: 50%
+}
+.front_page {
+    background-image: url(img/brown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: block;
+    align-items: center
+}
+.leaf {
+    background-image: url(img/brown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 250px;
+}
+.contents {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25%;
+}
+.authorname {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75%;
+    display: block;
+}
+.tableofcontent {
+    vertical-align: top;
+    width: 25%;
+    height: 500px;
+    background-image:url(img/beige.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 1px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.authorphoto {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    margin-right:auto ;
+}
+hr {
+    border: solid;
+}
+.title {
+    display: inline-block;
+    border-radius: 1px;
+    border-color: black;
+}
