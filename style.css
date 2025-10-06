@@ -30,12 +30,13 @@ body {
 body:hover {
     cursor: pointer;
 }
-.author {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    object-position:center;
-    border-radius: 50%
+.text {
+    height: 40%;
+    margin-bottom: 25px;
+}
+.photo {
+    margin-bottom: 10px;
+    height: 50%;
 }
 .contents {
     font-family: 'Courier New', Courier, monospace;
@@ -47,11 +48,29 @@ body:hover {
     font-size: 50px;
     display: block;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: block;
+}
+hr {
+    height: 1px;        
+    background-color: #000; 
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
 }
 .cover {
+    border-radius: 1px;
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-image:url(img/brown.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,24 +79,24 @@ body:hover {
     margin-top: 50px;
     margin-bottom: 50px;
     vertical-align: top;
-    width: 40%;
-    height: 500px;
+    width: 20%;
+    height: 600px;
     background-image:url(img/beige.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 1px;
     
 }
 .authorphoto {
-    width: 300px;
-    height: 225px;
+    border-radius: 1px;
+    width: 85%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     margin-left: auto;
     margin-right:auto ;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
