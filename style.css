@@ -64,7 +64,7 @@ body:hover {
     color: #4e4035;
     font-family: "Bebas Neue", sans-serif;
     font-weight: bold;
-    font-size: 90px;
+    font-size: 85px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
@@ -138,4 +138,5 @@ hr {
 }
 p {
     margin-top: 0px;
+
 }
