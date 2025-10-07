@@ -100,15 +100,15 @@ hr {
     margin-top: 50px;
     margin-bottom: 50px;
     vertical-align: top;
-    width: 30%;
+    width: 36%;
     height: 90%;
     background-image:url(img/beige.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
     text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 32%;
+    margin-right: 32%;
     border-radius: 2px;
     
 }
