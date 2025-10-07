@@ -1,3 +1,12 @@
+@media (max-width: 600px) {
+      /* Styles to apply for screens smaller than 600px */
+      .nav-links {
+        display: none; /* Example: Hide desktop nav on small screens */
+      }
+      .hamburger-menu {
+        display: block; /* Example: Show a mobile hamburger menu */
+      }
+    }
 .courier-prime-regular {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
@@ -43,7 +52,7 @@ body:hover {
     cursor: pointer;
 }
 .text {
-    height: 40%;
+    width: 100%;
     margin-bottom: 25px;
 }
 .photo {
@@ -58,21 +67,25 @@ body:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
     display: block;
-    font-size:15px;
+    font-size:10px;
 }
 .authorname {
+    display: block;
     color: #4e4035;
     font-family: "Bebas Neue", sans-serif;
     font-weight: bold;
     font-size: 80px;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: -10px;
 }
 .title {
+    display: block;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
+    font-size: 14px;
     color: #4e4035;
-    font-size: 15px;
+    width: 80%;
+    margin: 0px 10%;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -115,7 +128,7 @@ hr {
 .authorphoto {
     border-radius: 2px;
     width: 85%;
-    height: 85%;
+    height: 60%;
     object-fit: cover;
     object-position: center;
     margin-left: auto;
@@ -138,6 +151,4 @@ hr {
 }
 p {
     margin-top: 0px;
-
 }
-
