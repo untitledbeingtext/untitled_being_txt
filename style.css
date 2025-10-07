@@ -50,7 +50,7 @@ body:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     height: 50%;
 }
 .contents {
@@ -87,26 +87,28 @@ hr {
     width: 50%;
 }
 .cover {
+    display: block;
     border-radius: 2px;
     width: 100%;
-    height: 900px;
+    height: 100%;
     background-image:url(img/brown.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0px;
 }
 .tableofcontent {
     margin-top: 50px;
     margin-bottom: 50px;
     vertical-align: top;
-    width: 20%;
-    height: 700px;
+    width: 30%;
+    height: 90%;
     background-image:url(img/beige.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
     text-align: center;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 35%;
+    margin-right: 35%;
     border-radius: 2px;
     
 }
@@ -117,5 +119,23 @@ hr {
     object-fit: cover;
     object-position: center;
     margin-left: auto;
-    margin-right:auto ;
+    margin-right:auto;
+}
+.midpage {
+    display: block;
+    background-image: url(img/baby\ blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    color: #4e4035;
+    text-align: center;
+    margin: auto;
+}
+.hi {
+    margin-top: 25px;
+}
+p {
+    margin-top: 0px;
 }
