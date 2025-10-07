@@ -1,12 +1,4 @@
-@media (max-width: 600px) {
-      /* Styles to apply for screens smaller than 600px */
-      .nav-links {
-        display: none; /* Example: Hide desktop nav on small screens */
-      }
-      .hamburger-menu {
-        display: block; /* Example: Show a mobile hamburger menu */
-      }
-    }
+
 .courier-prime-regular {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
@@ -68,14 +60,14 @@ body:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
     display: block;
-    font-size:7px;
+    font-size:10px;
 }
 .authorname {
     display: block;
     color: #4e4035;
     font-family: "Bebas Neue", sans-serif;
     font-weight: bold;
-    line-height: 0.9; /* smaller = less spacing */
+    line-height: 1; /* smaller = less spacing */
     text-align: center;
     font-size: 60px;
     margin-top: 10px;
@@ -87,12 +79,12 @@ body:hover {
     font-weight: bold;
     font-size: 10px;
     color: #4e4035;
-    width: 80%;
-    margin: 0px 10%;
+    width: 90%;
+    margin: 0px 5%;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-hr {
+.hrcover {
     height: 1px;   
     background-color: #4e4035; 
     border: none;
@@ -104,7 +96,6 @@ hr {
 }
 .cover {
     display: block;
-    border-radius: 2px;
     width: 100%;
     height: 100%;
     background-image:url(img/brown.png);
@@ -117,7 +108,7 @@ hr {
     margin-bottom: 50px;
     vertical-align: top;
     width: 36%;
-    height: 90%;
+    height: 99%;
     background-image:url(img/beige.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,20 +130,109 @@ hr {
     margin-bottom: 0px
 }
 .midpage {
+    height: 800px;
+    width: 90%;
     display: block;
-    background-image: url(img/baby\ blue.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-left: 10%;
+    font-size: 10px;
+}
+.tctitle {
+    font-size: 10px;
     width: 100%;
-    height: 500px;
-    margin-top: 50px;
-    color: #4e4035;
-    text-align: center;
-    margin: auto;
+    vertical-align: top;
 }
-.hi {
-    margin-top: 25px;
+.megacontent, .subcontent {
+    display: inline-block;
+    vertical-align: top;
 }
-p {
+.subcontentbox {
+    display: block;
+    vertical-align: top;
+}
+.subchapter, .subtitlecontent, .page {
+    display: inline-block;
+}
+.megachapter, .megatitle {
+    display: inline-block;
+    vertical-align: top;
+}
+.megacontent {
+    font-weight: bold;
     margin-top: 0px;
+    width: 30%;
+    float: left;
+}
+.megachapter {
+    width: 20%;
+    float: left;
+}
+.megatitle {
+    text-align: left;
+    width: 70%;
+    float: right;
+}
+.subcontent {
+    float: right;
+    width: 65%;
+}
+hr {
+    width: 100%;
+    height: 1px;   
+    background-color: #4e4035; 
+    border: none;
+}
+.subchapter {
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+.page {
+    width: 15%;
+    float: right;
+    text-align: right;
+}
+.subtitlecontent {
+    width: 65%;
+    text-align: left;
+    align-items: center;
+}
+@media (max-width: 768px) {
+      /* Styles to apply for screens smaller than 600px */
+      .nav-links {
+        display: none; /* Example: Hide desktop nav on small screens */
+      }
+      .hamburger-menu {
+        display: block; /* Example: Show a mobile hamburger menu */
+      }
+      .tctitle, .contents {
+        font-size: 7px;
+    }
+    .authorname {
+    line-height: 1; /* smaller = less spacing */
+    font-size: 30px;
+    margin-top: 7px;
+    margin-bottom: 0px;}
+    .title {
+    font-size: 7px;
+    color: #4e4035;
+    width: 90%;
+    margin: 0px 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;}
+    .hrcover {
+    height: 1px;   
+    background-color: #4e4035; 
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;}
+    .tableofcontent {
+    width: 36%;
+    height: 99%;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 2px; 
+}
 }
