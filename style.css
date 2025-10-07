@@ -75,7 +75,7 @@ body:hover {
     color: #4e4035;
     font-family: "Bebas Neue", sans-serif;
     font-weight: bold;
-    line-height: 1; /* smaller = less spacing */
+    line-height: 0.9; /* smaller = less spacing */
     text-align: center;
     font-size: 60px;
     margin-top: 10px;
